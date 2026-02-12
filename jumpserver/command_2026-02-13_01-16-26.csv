@@ -1,0 +1,33 @@
+﻿*User,*Asset,*Command,*Session,Risk level,Id,*Account,*Output,*Timestamp,Datetime,Remote Address
+First user(first-user),target-machine-2(10.0.2.50),whoami,f3d4f90f-78b4-4c28-8922-b23114d6ac50,Accept(0),7eba1c4e-802d-48ad-a25f-4a5446c2a01e,ubuntu(ubuntu),ubuntu,1770910536,2026/02/12 23:35:36 +0800,192.168.1.10
+First user(first-user),target-database-1(10.0.2.40),postgres->WHERE table_schema = 'public';,e5c9bf50-444b-4708-a1d3-0d2199fb0ec1,Accept(0),2d4514a9-fe37-4d84-a8b1-38b5a9ecdc6d,postgres(postgres),"postgres->FROM information_schema.tables
+postgres->WHERE table_schema = 'public';",1770135059,2026/02/04 00:10:59 +0800,192.168.1.10
+First user(first-user),target-database-1(10.0.2.40),"SELECT table_name FROM information_schema.tables WHERE table_schema = 'public';",e5c9bf50-444b-4708-a1d3-0d2199fb0ec1,Accept(0),1b7a88d8-8ee4-4ee6-a30c-20f129f2a2b0,postgres(postgres),,1770135031,2026/02/04 00:10:31 +0800,192.168.1.10
+First user(first-user),target-database-1(10.0.2.40),;,e5c9bf50-444b-4708-a1d3-0d2199fb0ec1,Accept(0),92bd5e72-558d-42c4-b41b-b333bf43b089,postgres(postgres),"postgres->;
+error: pq: 42P01: relation ""information_schema"" does not exist",1770134989,2026/02/04 00:09:49 +0800,192.168.1.10
+First user(first-user),target-database-1(10.0.2.40),select * from information_schema,e5c9bf50-444b-4708-a1d3-0d2199fb0ec1,Accept(0),8bb493be-187c-47c4-9305-18679ab64ab6,postgres(postgres),,1770134987,2026/02/04 00:09:47 +0800,192.168.1.10
+First user(first-user),target-machine-2(10.0.2.50),"echo ""I am happy using Jump Server""",5decbced-48dc-4774-9f0a-0ec67802df4e,Accept(0),1487f453-b03e-4ba5-8ae1-6fa8d71dad50,ubuntu(ubuntu),I am happy using Jump Server,1770130945,2026/02/03 23:02:25 +0800,192.168.1.10
+First user(first-user),target-machine-2(10.0.2.50),pwd,5decbced-48dc-4774-9f0a-0ec67802df4e,Accept(0),9d4cc9ed-a87c-45bb-9e65-af9188849061,ubuntu(ubuntu),/home/ubuntu,1770130927,2026/02/03 23:02:07 +0800,192.168.1.10
+First user(first-user),target-machine-2(10.0.2.50),whoami,5decbced-48dc-4774-9f0a-0ec67802df4e,Accept(0),12396cbc-de08-45ee-8b39-c023a90544dd,ubuntu(ubuntu),ubuntu,1770130922,2026/02/03 23:02:02 +0800,192.168.1.10
+machine-2-user(machine-2-user),machine-2(10.0.2.20),"echo ""I am user 2 from machine 2""",947c5fc8-36ea-43be-84fc-925dee3366d0,Accept(0),357e66de-1f23-4fe8-b66b-88830dc84894,User for machine 2(normal-user),I am user 2 from machine 2,1767353460,2026/01/02 19:31:00 +0800,192.168.1.151
+machine-2-user(machine-2-user),machine-2(10.0.2.20),normal-user@vm-2:~$ pwd,947c5fc8-36ea-43be-84fc-925dee3366d0,Accept(0),bec112fe-da82-4bb2-8cab-9893fbc496a9,User for machine 2(normal-user),/home/normal-user,1767353452,2026/01/02 19:30:52 +0800,192.168.1.151
+machine-2-user(machine-2-user),machine-2(10.0.2.20),top,947c5fc8-36ea-43be-84fc-925dee3366d0,Accept(0),b0fc5ff9-27bc-46e2-ae49-3f4b39354a03,User for machine 2(normal-user),"Linux vm-2 6.8.0-90-generic #91-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 18 14:14:30 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+normal-user@vm-2:~$ p
+top - 11:30:37 up 26 min,  2 users,  load average: 0.00, 0.00, 0.00
+Tasks: 101 total,   1 running, 100 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.1 us,  9.1 sy,  0.0 ni, 81.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   1968.1 total,   1585.6 free,    291.8 used,    237.1 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   1676.3 avail Mem
+P....0   0:00.00 khugepaged
+32 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kinte
+33 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kbloc
+34 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-blkcg
+35 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/9-acpi
+36 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-tpm_d
+37 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-ata_s",1767353437,2026/01/02 19:30:37 +0800,192.168.1.151
+machine-2-user(machine-2-user),machine-2(10.0.2.20),uname,947c5fc8-36ea-43be-84fc-925dee3366d0,Accept(0),2589bc26-6009-4a82-ba06-18dbe4c25ef3,User for machine 2(normal-user),,1767353431,2026/01/02 19:30:31 +0800,192.168.1.151
+machine-2-user(machine-2-user),machine-2(10.0.2.20),pwd,947c5fc8-36ea-43be-84fc-925dee3366d0,Accept(0),d5c00236-4d82-44c8-8a06-b8dd4217d621,User for machine 2(normal-user),/home/normal-user,1767353425,2026/01/02 19:30:25 +0800,192.168.1.151
+machine-2-user(machine-2-user),machine-2(10.0.2.20),ls,947c5fc8-36ea-43be-84fc-925dee3366d0,Accept(0),1701dcd7-6c1c-4a75-85be-82285cdd4a32,User for machine 2(normal-user),,1767353421,2026/01/02 19:30:21 +0800,192.168.1.151
+Administrator(admin),machine-2(10.0.2.20),exit,a798c20f-b116-48a0-9d76-8d89c01a3ca2,Accept(0),92a909ff-328f-4fdc-b016-b5f0c030be1e,machine-2-user(ubuntu),logout,1765485344,2025/12/12 04:35:44 +0800,192.168.1.100
+Administrator(admin),machine-2(10.0.2.20),pwd,a798c20f-b116-48a0-9d76-8d89c01a3ca2,Accept(0),826d92f0-153b-4078-bfa9-ef6f268e8459,machine-2-user(ubuntu),/home/ubuntu,1765485342,2025/12/12 04:35:42 +0800,192.168.1.100
+Administrator(admin),machine-2(10.0.2.20),ls,a798c20f-b116-48a0-9d76-8d89c01a3ca2,Accept(0),e71c8a0d-e2ff-4188-a16b-dc15d9af8bf2,machine-2-user(ubuntu),,1765485338,2025/12/12 04:35:38 +0800,192.168.1.100

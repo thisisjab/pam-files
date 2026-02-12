@@ -1,0 +1,18 @@
+[Unit]
+Description=Teleport Application Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+User=YOUR_USERNAME  
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+ExecStart=/usr/local/bin/teleport start --config=/home/YOUR_USERNAME/.config/teleport/app_config.yaml --insecure
+WorkingDirectory=/home/YOUR_USERNAME
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

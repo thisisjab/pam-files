@@ -1,0 +1,95 @@
+﻿ID,*User,*Action,Resource Type,Resource,Remote addr,Organization,Datetime
+f3605bbf-b219-4f7d-b89b-5dd547195d2b,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/13 01:14:26 +0800
+45abb8c6-2d58-4840-9c16-5425dd144fb1,First user(first-user),Create(create),User session,First user(first-user)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/12 23:32:33 +0800
+aacddf9a-3f09-4605-9816-473ae14d2c5d,First user(first-user),Update(update),User,First user(first-user),192.168.1.10,DEFAULT,2026/02/12 19:11:40 +0800
+f1e0778a-a958-48d7-8679-7220d42565ec,First user(first-user),Create(create),User session,First user(first-user)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/12 19:10:59 +0800
+3e29b47c-8b6d-4faa-b113-021918aa6e57,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/12 17:55:18 +0800
+bea6edaf-8a5b-490a-b83f-c65171910bb9,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/04 22:04:24 +0800
+9215e0f2-086b-482c-922f-d2107fe021ac,Administrator(admin),Finished(finished),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/04 21:51:18 +0800
+8fa17b87-49bf-428a-9c9a-738b09d64525,Administrator(admin),Create(create),System setting,[Security] Auto Disable Threshold (day),192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+be8ae9ce-9220-4141-9de8-23a326b736fb,Administrator(admin),Create(create),System setting,[Security] Suspicious Login Verification,192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+8849f22e-62f9-4ee1-b30c-57eac419ec71,Administrator(admin),Create(create),System setting,[Security] Login CAPTCHA,192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+a9d36767-3c4b-47f6-aeb9-39e7fc0ce628,Administrator(admin),Create(create),System setting,[Security] Login dynamic code,192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+e8107f43-5b48-460c-9c0e-aa3ac52f84a1,Administrator(admin),Create(create),System setting,[Security] MFA in login page,192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+4243cc4d-ec15-454e-8ec4-49beea1f342f,Administrator(admin),Create(create),System setting,[Security] MFA verify TTL,192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+641e1abb-a126-45d9-9bc0-8d49f6254055,Administrator(admin),Create(create),System setting,[Security] OTP valid window,192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+5733a08a-f45d-465e-ac7d-9479c7fdff74,Administrator(admin),Create(create),System setting,[Security] OTP issuer name,192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+b8b327b3-d1da-4625-a089-033a2b7c2453,Administrator(admin),Create(create),System setting,[Security] MFA via Email,192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+fbce095c-4f03-4b3c-a6fd-209be87c2fc0,Administrator(admin),Create(create),System setting,[Security] Third-party login MFA,192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+6bb7554a-edbe-4225-b177-d516acaf4b79,Administrator(admin),Create(create),System setting,[Security] Global MFA,192.168.1.10,SYSTEM,2026/02/04 21:49:59 +0800
+4d7e419f-2f02-40d2-98ed-61858014e010,Administrator(admin),Download(download),Session replay,target-machine-2(10.0.2.50),192.168.1.10,DEFAULT,2026/02/04 00:20:57 +0800
+3a2c3915-1b5e-4067-83d9-973d56a4a37c,Administrator(admin),View(view),Session replay,target-machine-2(10.0.2.50),192.168.1.10,DEFAULT,2026/02/04 00:19:57 +0800
+3f55f692-af53-4b9a-8af2-25e269718f4f,Administrator(admin),Download(download),Session replay,target-database-1(10.0.2.40),192.168.1.10,DEFAULT,2026/02/04 00:15:19 +0800
+de16a0a9-cd25-4b30-9d97-8dcf00ecc671,Administrator(admin),View(view),Session replay,target-database-1(10.0.2.40),192.168.1.10,DEFAULT,2026/02/04 00:15:09 +0800
+34bd8731-be75-4908-9d19-ede38a31b4cd,Administrator(admin),View(view),Session replay,target-database-1(10.0.2.40),192.168.1.10,DEFAULT,2026/02/04 00:14:57 +0800
+'04961e69-3dd5-499c-ac9f-3b2e4f2b28f3,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/04 00:12:24 +0800
+b909a1b8-bca9-436b-bc2e-ceb60a841237,First user(first-user),Finished(finished),User session,First user(first-user)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/04 00:12:19 +0800
+4a2b0579-7b6c-4602-ac30-dacb2ca21447,First user(first-user),Create(create),User session,First user(first-user)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/03 22:57:23 +0800
+90eb777e-b607-4fab-9235-a97b392fc782,First user(first-user),Create(create),Preference,[Preference] Language,192.168.1.10,DEFAULT,2026/02/03 22:57:23 +0800
+ec58dc92-201a-43a3-aded-9926352bb2c1,Administrator(admin),Finished(finished),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/03 22:56:05 +0800
+a56be250-4ad5-4864-b067-a0c6c54e236e,Administrator(admin),Update(update),User,First user(first-user),192.168.1.10,DEFAULT,2026/02/03 22:56:00 +0800
+4121d698-0eb3-49ce-95c6-6f0a268feea6,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/03 22:55:23 +0800
+eed50f21-f156-4a98-9ca5-0a8cebe50131,Administrator(admin),Finished(finished),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/03 22:54:47 +0800
+58969bdc-3969-43ce-9004-3632bc207777,Administrator(admin),Update(update),Asset permission,Allow first user to access target machine 2 and target database 1,192.168.1.10,DEFAULT,2026/02/03 22:54:40 +0800
+2ef81d8d-5e61-4208-842e-1f5f1d7e826d,Administrator(admin),Update(update),Asset permission,Allow first user to access target machine 2 and target database 1,192.168.1.10,DEFAULT,2026/02/03 22:54:40 +0800
+6a601aba-1a8b-44f2-bfb0-1fd01c4b6eef,Administrator(admin),Create(create),Asset permission,Allow first user to access target machine 2 and target database 1,192.168.1.10,DEFAULT,2026/02/03 22:54:40 +0800
+bbd01c31-e377-47bb-a345-9fc497dc6356,Administrator(admin),Delete(delete),Asset permission,Allow user 2 to use machine 2,192.168.1.10,DEFAULT,2026/02/03 22:51:38 +0800
+'09a8c005-7c93-4a7f-8e1d-853dbd9f0b65,Administrator(admin),Delete(delete),Asset permission,allow admin to use machine-2,192.168.1.10,DEFAULT,2026/02/03 22:51:38 +0800
+'0813cc14-0a82-4ead-905b-44cb9c19f57b,Administrator(admin),Create(create),Organization role binding,OrgUser(Organization) -> First user(first-user) | DEFAULT,192.168.1.10,DEFAULT,2026/02/03 22:50:50 +0800
+20800c6d-7e4c-4cfe-af2a-e99057fec3bb,Administrator(admin),Create(create),System role binding,User(System) -> First user(first-user),192.168.1.10,DEFAULT,2026/02/03 22:50:50 +0800
+e8596dbc-b450-4c43-bacb-284e65912756,Administrator(admin),Create(create),User message,First user(first-user) subscription,192.168.1.10,DEFAULT,2026/02/03 22:50:50 +0800
+be38e967-aa9c-4ef3-9030-dd9735e8916b,Administrator(admin),Create(create),User,First user(first-user),192.168.1.10,DEFAULT,2026/02/03 22:50:49 +0800
+2ff43d7f-e3d8-4617-8545-cdffa310de9c,Administrator(admin),Create(create),Account,postgres(target-database-1),192.168.1.10,DEFAULT,2026/02/03 22:45:43 +0800
+8935418c-c3d5-4bb9-bed2-eb58e9bc236d,Administrator(admin),Create(create),Database,target-database-1(postgresql://10.0.2.40/postgres),192.168.1.10,DEFAULT,2026/02/03 22:45:43 +0800
+53852e91-85c2-4219-bcf5-8c577d36804b,Administrator(admin),Create(create),Account,ubuntu(target-machine-2),192.168.1.10,DEFAULT,2026/02/03 22:44:29 +0800
+77b2d359-0a07-472f-818a-fd5e8b78fa34,Administrator(admin),Create(create),Host,target-machine-2(10.0.2.50),192.168.1.10,DEFAULT,2026/02/03 22:44:28 +0800
+4e5e5aa5-69fe-469b-ba89-7b81be500cf3,Administrator(admin),Create(create),Account,ubuntu(target-machine-1),192.168.1.10,DEFAULT,2026/02/03 22:38:58 +0800
+eab48f51-3397-464e-8115-4b0b4a4c7eff,Administrator(admin),Create(create),Host,target-machine-1(10.0.2.40),192.168.1.10,DEFAULT,2026/02/03 22:38:57 +0800
+3d4df57b-dd8b-4907-82d7-94a0b3cac41c,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/03 22:35:18 +0800
+61ee825c-a3ab-4324-9f41-0bc2e15f37e8,Administrator(admin),Finished(finished),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/03 22:35:12 +0800
+b0a3717d-4d4d-45e6-8e28-c61f0ae9474a,Administrator(admin),Update(update),Asset,machine-3(10.0.2.30),192.168.1.10,DEFAULT,2026/02/03 01:25:34 +0800
+5c32b555-422c-46de-9ad9-01493ffbe3ed,Administrator(admin),Delete(delete),Host,machine-3(10.0.2.30),192.168.1.10,DEFAULT,2026/02/03 01:25:34 +0800
+d30b0791-11b4-4df0-a44d-8aacfd1be9b5,Administrator(admin),Update(update),Asset,machine-2(10.0.2.20),192.168.1.10,DEFAULT,2026/02/03 01:25:34 +0800
+3cda7b0e-404d-442f-a1a3-d59b75414fd8,Administrator(admin),Delete(delete),Account,User for machine 2(machine-2),192.168.1.10,DEFAULT,2026/02/03 01:25:34 +0800
+8555f2d1-c38f-4afd-a11a-8c47cd58b667,Administrator(admin),Delete(delete),Host,machine-2(10.0.2.20),192.168.1.10,DEFAULT,2026/02/03 01:25:34 +0800
+51d95bab-978e-464f-8842-26cbd24b8024,Administrator(admin),Delete(delete),User,machine-2-user(machine-2-user),192.168.1.10,DEFAULT,2026/02/03 01:25:18 +0800
+54c21452-2a90-4fab-9fcb-fbb3b34975fb,Administrator(admin),Finished(finished),User session,machine-2-user(machine-2-user)(192.168.1.151),192.168.1.10,DEFAULT,2026/02/03 01:25:18 +0800
+d5276d36-c029-4598-beb6-61a9fdbbe002,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.10),192.168.1.10,DEFAULT,2026/02/03 01:19:31 +0800
+a98f6019-33a6-4b3a-8e6c-88fb3d187979,Administrator(admin),Update(update),Asset permission,Allow user 2 to use machine 2,192.168.1.151,DEFAULT,2026/01/02 19:22:48 +0800
+4eecb427-cfb5-46e8-8d24-374e73ab6e76,Administrator(admin),Update(update),Asset permission,Allow user 2 to use machine 2,192.168.1.151,DEFAULT,2026/01/02 19:22:48 +0800
+9b527462-d756-4b6f-9a9f-2ef080b5fd67,Administrator(admin),Create(create),Asset permission,Allow user 2 to use machine 2,192.168.1.151,DEFAULT,2026/01/02 19:22:48 +0800
+720f0db2-d3f7-479e-af45-b5189a1143c5,Administrator(admin),Create(create),Account,User for machine 2(machine-2),192.168.1.151,DEFAULT,2026/01/02 19:17:06 +0800
+'0d784679-1fd0-4c51-b86d-85435f0f33c6,Administrator(admin),Delete(delete),Account,User for machine 2(machine-2),192.168.1.151,DEFAULT,2026/01/02 19:16:42 +0800
+dd4ad19c-2a2a-4e42-8925-9c46be6dc2a2,machine-2-user(machine-2-user),Create(create),User session,machine-2-user(machine-2-user)(192.168.1.151),192.168.1.151,DEFAULT,2026/01/02 19:10:07 +0800
+417569f0-a87f-40cb-b895-48177952576d,Administrator(admin),Update(update),User,machine-2-user(machine-2-user),192.168.1.151,DEFAULT,2026/01/02 19:08:43 +0800
+ececd050-da49-41ce-a459-423a8650658c,Administrator(admin),Create(create),Account,User for machine 2(machine-2),192.168.1.151,DEFAULT,2026/01/02 19:07:24 +0800
+be09ddd9-488a-4aee-a95b-d2bb6bc5d3d1,Administrator(admin),Delete(delete),Account,machine-2-user(machine-2),192.168.1.151,DEFAULT,2026/01/02 19:06:51 +0800
+cc0a1d66-2fea-4aaf-9171-10269280d7f6,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.151),192.168.1.151,DEFAULT,2026/01/02 19:06:31 +0800
+4b443092-be73-4704-bfe4-e24fa932eb7c,Administrator(admin),Create(create),Organization role binding,OrgUser(Organization) -> machine-2-user(machine-2-user) | DEFAULT,192.168.1.151,DEFAULT,2026/01/02 18:48:54 +0800
+e2f29a84-c0a6-4f19-aca9-6fe461f38b81,Administrator(admin),Create(create),System role binding,User(System) -> machine-2-user(machine-2-user),192.168.1.151,DEFAULT,2026/01/02 18:48:54 +0800
+3240aaac-ad82-4db5-9a04-f3228fbb3f0f,Administrator(admin),Create(create),User message,machine-2-user(machine-2-user) subscription,192.168.1.151,DEFAULT,2026/01/02 18:48:54 +0800
+6727b17d-e00e-460c-865d-dbe861f06955,Administrator(admin),Create(create),User,machine-2-user(machine-2-user),192.168.1.151,DEFAULT,2026/01/02 18:48:54 +0800
+90694cbc-64f5-4c62-b1ec-9a3d77439dc6,Administrator(admin),Create(create),Account,machine-2-user(machine-2),192.168.1.151,DEFAULT,2026/01/02 18:46:59 +0800
+fb164d4a-df5b-4bfe-af00-9bdd9170dfba,Administrator(admin),Delete(delete),Account,machine-2-user(machine-2),192.168.1.151,DEFAULT,2026/01/02 18:30:28 +0800
+'01fe5278-f079-4a35-a1e5-808ee97e8d37,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.151),192.168.1.151,DEFAULT,2026/01/02 17:25:55 +0800
+84109375-7fd7-4be8-8d0f-d9fb24d7baa7,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.100),192.168.1.100,DEFAULT,2026/01/02 17:15:10 +0800
+e9e4d778-7dc3-4cd2-847c-86a9278bc1a5,Administrator(admin),Update(update),Asset permission,allow admin to use machine-2,192.168.1.100,DEFAULT,2025/12/12 04:35:15 +0800
+2ad2150c-fb22-4751-8722-0097b86aaa3d,Administrator(admin),Update(update),Asset permission,allow admin to use machine-2,192.168.1.100,DEFAULT,2025/12/12 04:35:14 +0800
+f07d7057-b9c7-4f7d-a106-09f3960341ad,Administrator(admin),Create(create),Asset permission,allow admin to use machine-2,192.168.1.100,DEFAULT,2025/12/12 04:35:14 +0800
+1524568d-9f70-41cd-b098-cb258e4f1880,Administrator(admin),Create(create),Account,machine-2-user(machine-2),192.168.1.100,DEFAULT,2025/12/12 04:32:19 +0800
+1bd072eb-b52e-496c-990e-2cd642302570,Administrator(admin),Delete(delete),Account,machine-2-user(machine-2),192.168.1.100,DEFAULT,2025/12/12 04:31:43 +0800
+f413f823-edd6-437d-ab71-bfe33c4366e3,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.100),192.168.1.100,DEFAULT,2025/12/12 04:27:04 +0800
+77cac756-9706-47ee-841c-24a25984ad47,Administrator(admin),Create(create),Preference,[Preference] Language,192.168.1.100,DEFAULT,2025/12/12 04:27:04 +0800
+4a58630c-55e1-458b-aab2-aec107e808ba,Administrator(admin),Finished(finished),User session,Administrator(admin)(192.168.1.100),192.168.1.100,DEFAULT,2025/12/12 04:26:36 +0800
+7989973c-de28-4617-b17e-3216213c305a,Administrator(admin),Create(create),Account,machine-2-user(machine-2),192.168.1.100,DEFAULT,2025/12/12 04:25:57 +0800
+86fb58bb-577c-41f7-bd99-c26d7cbb565d,Administrator(admin),Delete(delete),User,machine-2-user(machine-2-user),192.168.1.100,DEFAULT,2025/12/12 04:24:57 +0800
+d7d81303-f574-4e66-88c3-5bc195abe8ec,Administrator(admin),Create(create),Organization role binding,OrgUser(Organization) -> machine-2-user(machine-2-user) | DEFAULT,192.168.1.100,DEFAULT,2025/12/12 04:21:56 +0800
+3e7a873e-7281-4bdf-a7a2-8f00fbc68f9d,Administrator(admin),Create(create),System role binding,User(System) -> machine-2-user(machine-2-user),192.168.1.100,DEFAULT,2025/12/12 04:21:56 +0800
+3843c09a-830c-4caf-9f13-12b8b71f4f83,Administrator(admin),Create(create),User message,machine-2-user(machine-2-user) subscription,192.168.1.100,DEFAULT,2025/12/12 04:21:56 +0800
+2dfd642a-e0c3-4353-8480-5af3064f570d,Administrator(admin),Create(create),User,machine-2-user(machine-2-user),192.168.1.100,DEFAULT,2025/12/12 04:21:56 +0800
+3b0231a5-23aa-4d88-9318-737f99178564,Administrator(admin),Update(update),Host,machine-2(10.0.2.20),192.168.1.100,DEFAULT,2025/12/12 04:18:00 +0800
+3ea5dc5c-1372-415e-a040-9fad7aef1e5d,Administrator(admin),Create(create),Host,machine-3(10.0.2.30),192.168.1.100,DEFAULT,2025/12/12 04:17:45 +0800
+7e3676b0-b6f2-40f7-8916-302245c74384,Administrator(admin),Create(create),Host,machine-1(10.0.2.20),192.168.1.100,DEFAULT,2025/12/12 04:17:16 +0800
+af1573e0-245d-4dc8-833c-016a94a844d7,Administrator(admin),Create(create),Node,/DEFAULT,192.168.1.100,DEFAULT,2025/12/12 04:16:39 +0800
+e79d7589-166a-49c4-b051-91fdbfa2799b,Administrator(admin),Update(update),User,Administrator(admin),192.168.1.100,DEFAULT,2025/12/12 04:15:51 +0800
+a385c1d7-1bfe-4f9a-8b44-781f3712db8b,Administrator(admin),Create(create),User session,Administrator(admin)(192.168.1.100),192.168.1.100,DEFAULT,2025/12/12 04:15:23 +0800

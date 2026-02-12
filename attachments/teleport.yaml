@@ -1,0 +1,42 @@
+# version: v3
+# teleport:
+#   nodename: target-machine-2
+#   data_dir: /var/lib/teleport
+#   join_params:
+#     token_name: ec459813feb8fc6ee3b2f1561d60d059
+#     method: token
+#   proxy_server: 192.168.1.193:3080
+#   log:
+#     output: stderr
+#     severity: INFO
+#     format:
+#       output: text
+#   ca_pin: sha256:492ab995bae4514fe82e424e468fef702cf995cac89e31c4e2ff26232a22da19
+#   diag_addr: ""
+# auth_service:
+#   enabled: "no"
+# ssh_service:
+#   enabled: "yes"
+#   labels:
+#     teleport.internal/resource-id: 0f83ca63-7671-4df7-bb31-db6f33365287
+# proxy_service:
+#   enabled: "no"
+#   https_keypairs: []
+#   https_keypairs_reload_interval: 0s
+#   acme: {} 
+
+
+version: v3
+teleport:
+  nodename: target-machine-2
+  data_dir: /var/lib/teleport
+  auth_token: ec459813feb8fc6ee3b2f1561d60d059
+  proxy_server: 192.168.1.193:3080
+ssh_service:
+  enabled: "yes"
+  labels:
+    env: production
+auth_service:
+  enabled: "no"
+proxy_service:
+  enabled: "no"
